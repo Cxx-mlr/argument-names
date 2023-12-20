@@ -1,5 +1,5 @@
 ```py
-from identifiers import identifiers
+from identifier import identifiers
 
 @identifiers(function=lambda *ids: print(ids))
 def func(*args):
