@@ -27,7 +27,7 @@ def argument_names(func_=None, /, *, function = None):
                 return func(*args, **kwargs)
             finally:
                 del frame
-            return func(*args, **kwargs)
+                return func(*args, **kwargs)
         return wrapper_argument_names
     
     if func_ is None:
