@@ -4,5 +4,5 @@ from argument_names import argument_names
 def sum(a: int, b: int) -> int:
     return a + b
 
-def test_a():
+def test_sum():
     assert True
