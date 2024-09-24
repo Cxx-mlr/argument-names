@@ -2,6 +2,14 @@
 
 A Python library that provides a decorator to automatically retrieve and print the argument names of a function when it's called. This can be particularly useful for debugging or logging purposes.
 
+## Installation
+
+Install argument-names via pip:
+
+```python
+pip install argument-names
+```
+
 
 ## Use Case Example
 This example demonstrates how to utilize the argument_names decorator to log the names of the arguments passed to a function:
