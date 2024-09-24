@@ -1,11 +1,3 @@
-```py
-from identifier import identifiers
+# Argument Names
 
-@identifiers(function=lambda *ids: print(ids))
-def func(*args):
-    pass
-
-x = 1
-y = 2
-func(x, x, y) # ('x', 'x', 'y')
-```
+A Python library that provides a decorator to automatically retrieve and print the argument names of a function when it's called. This can be particularly useful for debugging or logging purposes.
