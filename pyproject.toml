@@ -45,5 +45,6 @@ distribution = true
 
 [tool.uv]
 dev-dependencies = [
+    "mypy>=1.11.2",
     "pytest>=8.3.3",
 ]
