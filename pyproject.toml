@@ -1,0 +1,49 @@
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project]
+name = "argument-names"
+dynamic = ["version"]
+dependencies = [
+    "packaging>=24.1",
+    "typing-extensions>=4.12.2",
+]
+requires-python = ">=3.8"
+authors = [
+    { name="Santiago Papiernik", email="spapiernik12@gmail.com" },
+]
+description = "This decorator dynamically maps argument names from a function's call to a specified function."
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = [
+    "decorator", "argument names", "Python", "type checking"
+]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Typing :: Typed",
+]
+
+[project.urls]
+Repository = "https://github.com/Cxx-mlr/identifiers"
+
+[project.scripts]
+argument-names = "argument_names.__main__:main"
+
+[tool.pdm]
+version = { source = "file", path = "argument_names/__init__.py" }
+distribution = true
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.3.3",
+]
