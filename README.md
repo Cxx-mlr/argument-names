@@ -26,7 +26,7 @@ age = 30
 occupation = "Engineer"
 
 # Calling the process_data function with the specified arguments
-process_data(name, age, occupation)   # This will output: Received arguments: name age occupation
+process_data(name, age, occupation)   # Received arguments: name age occupation
 
-process_data(occupation, age, age)   # This will output: Received arguments: occupation age age
+process_data(occupation, age, age)   # Received arguments: occupation age age
 ```
