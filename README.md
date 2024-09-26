@@ -30,3 +30,21 @@ process_data(name, age, occupation)   # Received arguments: name age occupation
 
 process_data(occupation, age, age)   # Received arguments: occupation age age
 ```
+
+```py
+from argument_names import argument_names
+
+@argument_names(function=lambda *args: print("".join(args)))
+def foo(*args):
+    pass
+
+h = None
+e = 1
+l = 9
+o = 3
+w = True
+r = 3.14
+d = 600
+
+foo(h, e, l, l, o, w, o, r, l, d) # hello world
+```
