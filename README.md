@@ -45,6 +45,7 @@ o = 3
 w = True
 r = 3.14
 d = 600
+_ = 0.03
 
-foo(h, e, l, l, o, w, o, r, l, d) # hello world
+foo(h, e, l, l, o, _, w, o, r, l, d) # hello_world
 ```
