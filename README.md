@@ -55,3 +55,7 @@ foo(h, e, l, l, o, _, w, o, r, l, d) # hello_world
 - The library requires you to provide named variables as arguments when calling the decorated function. Direct values, literals, or function calls will not work as expected.
 
   For example, calling `process_data("Alice", 30, "Engineer")` would not work properly because the arguments are passed as values, not named variables. You must use named arguments like in the example `process_data(name, age, occupation)`.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
